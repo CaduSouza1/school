@@ -1,0 +1,160 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage[shortlabels]{enumitem}
+\usepackage{pgfplots}
+
+\pgfplotsset{compact = newest}
+
+\begin{document}
+\begin{enumerate}
+    \item 
+        \begin{enumerate}[a)]
+            \item 
+                \begin{tikzpicture}
+                    \begin{axis}[]
+                        \addplot[smooth] { exp(-x/10)*( cos(deg(x)) + sin(deg(x))/10 ) };
+                    \end{axis}
+                \end{tikzpicture}
+        \end{enumerate}
+
+    \item
+
+    \item
+
+    \item
+
+    \item
+
+    \item
+
+    \item
+
+    \item
+
+    \item
+
+    \item
+        \begin{enumerate}[a)]
+            \item 
+                \begin{flalign*}
+                    & \lim_{x \to 2} \frac{ x^2 - x + 6 }{ x-2 } &\\
+                \end{flalign*}
+
+            \item 
+                \begin{flalign*}
+                    & \lim_{x \to -4} \frac{ x^2 + 5x + 4 }{ x^2 + 3x - 4 } &\\
+                    & \lim_{x \to -4} \frac{ (x + 1)(x + 4) }{ (x + 4)(x - 1) } &\\
+                    & \lim_{x \to -4} \frac{ x + 1 }{ x - 1 } = \frac{3}{4} &\\
+                \end{flalign*}
+
+            \item 
+                \begin{flalign*}
+                    & \lim_{x \to 0} \frac{ (4 + x)^2 - 16 }{ x } &\\
+                    & \lim_{x \to 0} \frac{ 8x + x^2 }{ x } &\\
+                    & \lim_{x \to 0} 8 + x = 8 + 0 = 8
+                \end{flalign*}
+
+            \item
+                \begin{flalign*}
+                    & \lim_{x \to 0} \frac{ \sqrt{1 + x} - 1 }{ x } &\\
+                    & \lim_{x \to 0} \frac{ ( \sqrt{1 + x} - 1)(\sqrt{1 + x} + 1) }{ x( \sqrt{1 + x} + 1 ) } &\\
+                    & \lim_{x \to 0} \frac{ x }{ x( \sqrt{1 + x} + 1 ) } &\\
+                    & \lim_{x \to 0} \frac{ 1 }{ \sqrt{1 + x} + 1 } = \frac{1}{\sqrt{1 + 0} + 1} = \frac{1}{2} &\\
+                \end{flalign*}
+
+            \item 
+                \begin{flalign*}
+                    & \lim_{x \to 0} \frac{ (1 + x)^4 - 1 }{ x } &\\
+                    & \lim_{x \to 0} \frac{ ((1 + x)^2 + 1)((1 + x)^2 - 1) }{ x } &\\
+                    & \lim_{x \to 0} \frac{ ((1 + x)^2 + 1)(2 + x)x }{ x } &\\
+                    & \lim_{x \to 0} ((1 + x)^2 + 1)(2 + x) = (1 + 0)^2 + 1)(2 + 0) = 4
+                \end{flalign*}
+
+            \item
+                \begin{flalign*}
+                    & \lim_{x \to 2} \frac{ x^4 - 16 }{ x - 2 } &\\
+                    & \lim_{x \to 2} \frac{ (x^2 - 4)(x + 2)(x-2) }{ x - 2 } &\\
+                    & \lim_{x \to 2} (x^2 - 4)(x + 2) = 0 &\\
+                \end{flalign*}
+
+            \item
+                \begin{flalign*}
+                    & \lim_{x \to 9} \frac{ 9 - x }{ 3 - \sqrt{x} } &\\
+                    & \lim_{x \to 9} \frac{ (9 - x)(3 + \sqrt{x}) }{ 9 - x } = 3 + \sqrt{9} = 6 &\\
+                \end{flalign*}
+
+            \item
+                \begin{flalign*}
+                    & \lim_{x \to 9} \frac{ x^2 - 81 }{ \sqrt{x} - 3 } &\\
+                    & \lim_{x \to 9} \frac{ (x + 9)(x - 9)(\sqrt{x} + 3) }{ x - 9 } &\\
+                    & \lim_{x \to 9} (x + 9)(\sqrt{x} + 3) = 18 \times 6 = 72 &\\
+                \end{flalign*}
+        \end{enumerate}
+    \item
+
+    \item
+
+    \item
+
+    \item
+
+    \item
+
+    \item
+
+    \item
+
+    \item
+
+    \item
+
+    \item
+
+    \item
+
+    \item
+
+    \item
+
+    \item
+
+    \item
+
+    \item
+
+    \item
+
+    \item
+
+    \item
+
+    \item
+
+    \item
+
+    \item
+
+    \item
+
+    \item
+
+    \item
+
+    \item
+
+    \item
+
+    \item
+
+    \item
+
+    \item
+
+    \item
+
+    \item
+
+    \item
+
+\end{enumerate}
+\end{document}
